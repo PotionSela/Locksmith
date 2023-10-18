@@ -2,7 +2,7 @@
 # Locksmith
 Locksmith is a versatile and secure password management system designed to help you store and manage your passwords with ease. It was created using JavaScript, HTML, and CSS.
 
-![Password Generator Image](![image](https://github.com/PotionSela/Locksmith/assets/143529855/c7141c35-8fe6-47b8-a0f2-161cecf47346)
+![Password Generator Image](file:///C:/Users/gisel/Desktop/friendly-parakeet/Develop/Images/Password-gen.jpg)
 )
 
 ## Description

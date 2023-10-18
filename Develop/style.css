@@ -2,9 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} /* Apply the 'box-sizing' rule to all elements and pseudo-elements */
 
-html,
+html, /* Define styles for the HTML, body, and wrapper elements */
 body,
 .wrapper {
   height: 100%;
@@ -15,20 +15,20 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
-}
+} /* Style for the entire page body */
 
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-}
+} /* Styles for the wrapper div element */
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
-}
+} /* Styles for the header element */
 
 .card {
   background-color: hsl(0, 0%, 100%);
@@ -40,7 +40,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
-}
+} /* Styles for the card container */
 
 .card-header::after {
   content: " ";
@@ -48,15 +48,16 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
-}
+} /* Add a horizontal line after the card header */
 
 .card-body {
   min-height: 100px;
-}
+} 
+/* Styles for the card body */
 
 .card-footer {
   text-align: center;
-}
+} /* Styles for the card footer */
 
 .card-footer::before {
   content: " ";
@@ -64,13 +65,13 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
-}
+} /* Add a horizontal line before the card footer */
 
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
-}
+} /* Add a horizontal line after the card footer */
 
 .btn {
   border: none;
@@ -86,16 +87,16 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
-}
+} /* Styles for the 'Generate Password' button */
 
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
-}
+}   /* Styles for a disabled button */
 
 .float-right {
   float: right;
-}
+} /* Create a utility class for floating elements to the right */
 
 #password {
   -webkit-appearance: none;
@@ -116,22 +117,23 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
-}
+} /* Styles for the password textarea */
 
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
-  }
+  } 
 
   #password {
     font-size: 1rem;
   }
-}
+} 
+/* Media query for screens with a maximum width of 690px */
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
   }
-}
+} /* Media query for screens with a maximum width of 500px */

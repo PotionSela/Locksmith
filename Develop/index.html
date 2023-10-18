@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> <!-- Head Section: Contains metadata and page title -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> <!--Link to external CSS for styling -->
   </head>
-  <body>
+  <body> <!-- Body of the card, where the password input field is located -->
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
@@ -17,18 +17,18 @@
           <h2>Generate a Password</h2>
         </div>
         <div class="card-body">
-          <textarea
+          <textarea 
             readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
-          ></textarea>
+          ></textarea> <!-- Textarea for displaying the generated password -->
         </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+        <div class="card-footer"> <!-- Footer of the card -->
+          <button id="generate" class="btn">Generate Password</button> <!-- Button to trigger password generation -->
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!--Link to external JavaScript for functionality-->
   </body>
 </html>

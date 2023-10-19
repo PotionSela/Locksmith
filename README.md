@@ -2,7 +2,7 @@
 # Locksmith
 Locksmith is a versatile and secure password management system designed to help you store and manage your passwords with ease. It was created using JavaScript, HTML, and CSS.
 
-<img src="Develop\Images\Password-gen.jpg"/>
+<img src="Develop/Images/Password-gen.jpg"/>
 
 ## Description
 
